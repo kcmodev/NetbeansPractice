@@ -16,6 +16,7 @@ public class RNGuessingGame {
         System.out.print("\nPick a number over 100 : ");
         
         int userChoice = userInput.nextInt();
+// add an if statement here checking with .hasNextInt() then run the rest in the else statement?
         
         if (userChoice >= 100){
             System.out.println("Your number is between 1 and " + userChoice + ".");
